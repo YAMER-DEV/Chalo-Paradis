@@ -176,83 +176,74 @@ include("include/header.php");
 <!-- Les services du site -->
   <h3 class="uk-heading-line uk-text-center"><span> Nos Services </span></h3>
   <div class="  uk-child-width-1-4@m uk-child-width-1-2@s " uk-grid style="margin-right: 30px; margin-bottom: 10px">
-    
-        <div class="card-flip" style="">
-       
-       <div class=" uk-inline card-flip " >
-        <div class="card-front">
-          <a href="#"><img src="images/woman-relaxing.jpg" alt="" style="border-radius: 30px;width: 100%"></a>
-          <div style=""  class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
-            <p>Massage</p>
-          </div>
-        </div>
-        
-        <div class="card-back" style="width: 100%">
-          <p>fdfsdfsdfsdsdfsd</p>
-        </div>
-      </div>
       
-   
-  </div>
-
-      <div class="card-flip" >
+    <div class="card-flip" >
       <center>  
-       <div class=" uk-inline card-flip " >
-        <div class="card-front">
-          <a href="#"><img src="images/SPA.jpg" alt="" style="border-radius: 30px;width: 100%"></a>
-          <div style=""  class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
-            <p>SPA</p>
+        <div class=" uk-inline card-flip " >
+          <div class="card-front">
+            <a href="#"><img src="images/soin.jpg" alt="" style="border-radius: 30px;width: 100%"></a>
+            <div style=""  class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
+              <p>Massage</p>
+            </div>
+          </div> 
+          <div class="card-back" style=" color : white; width: 100%">
+           <p style="margin-top: 80px">Découvrez les meilleure adresse de massage sélectionnées à Marrakech. Le temps s’arrête, bye bye maux de dos, stress et noeuds musculaires, place à la relaxation !</p>
           </div>
-        </div>
-        
-        <div class="card-back" style="width: 100%">
-          <p>fdfsdfsdfsdsdfsd</p>
-        </div>
-      </div>
-      
-    </center>
-  </div>
+        </div>  
+      </center>
+    </div>
 
-  <div class="card-flip" >
+    <div class="card-flip" >
       <center>  
-       <div class=" uk-inline card-flip " >
-        <div class="card-front">
-          <a href="#"><img src="images/manicure.jpg" alt="" style="border-radius: 30px;width: 100%"></a>
-          <div style=""  class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
-            <p>Manicure</p>
+        <div class=" uk-inline card-flip " >
+          <div class="card-front">
+            <a href="#"><img src="images/spa.jpg" alt="" style="border-radius: 30px;width: 100%"></a>
+            <div style=""  class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
+              <p>SPA</p>
+            </div>
+          </div>     
+          <div class="card-back" style="width: 100%">
+            <p style="margin-top: 80px">Votre escapade spa est une invitation à suspendre le cours du temps et à vous ressourcer pour un moment de relaxation intense. </p>
           </div>
-        </div>
-        
-        <div class="card-back" style="width: 100%">
-          <p>fdfsdfsdfsdsdfsd</p>
-        </div>
-      </div>
-      
-    </center>
-  </div>
+        </div>  
+      </center>
+    </div>
 
-  <div class="card-flip" >
+    <div class="card-flip" >
       <center>  
-       <div class=" uk-inline card-flip " >
+         <div class=" uk-inline card-flip " >
+          <div class="card-front">
+            <a href="#"><img src="images/soin (2).jpg" alt="" style="border-radius: 30px;width: 100%"></a>
+            <div style=""  class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
+              <p>Soins</p>
+            </div>
+          </div>
+          <div class="card-back"  style="width: 100% ">
+            <p style="margin-top: 80px;">Accordez-vous toujours un moment pour prendre soin de vous. Chalo paradise  et un spas vous offrent de de produits pour vous faire vivre des expériences bien-être inédites ! Hammam, soins du visage, massages…</p>
+          </div>
+        </div>
+      </center>
+    </div>
+
+  
+    <div class="card-flip" >
+    <center>  
+      <div class=" uk-inline card-flip " >
         <div class="card-front">
-          <a href="#"><img src="images/BioProduct.jpeg" alt="" style="border-radius: 30px;width: 100%"></a>
+          <a href="#"><img src="images/esthetique.jpg" alt="" style="border-radius: 30px;width: 100%"></a>
           <div style=""  class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
-            <p>Vente des Produits Naturels</p>
+            <p>Coifure et Esthetique</p>
           </div>
         </div>
         
         <div class="card-back" style="width: 100%">
-          <p>fdfsdfsdfsdsdfsd</p>
+          <p style="margin-top: 80px">Accordez-vous un moment pour vous refaire une beauté à Chalo Paradise. Une escapade dans notre Salon vous permettra de mettre en valeur votre image et votre personnalité.</p>
         </div>
       </div>
-      
     </center>
-  </div>
-     
-    </div>  
-
-  </div>
-
+    </div>    
+  </div>      
+  </div>  
   <!-- Nouveautés  -->
   <h3 style ="margin-top: 30px;"class="uk-heading-line uk-text-center"><span> Nouveautés</span></h3>
   <div class="container-fluid" style="margin-bottom:25px;border:solid 1px #ec971f; border-top: 0px;">   
