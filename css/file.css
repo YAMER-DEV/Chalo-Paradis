@@ -453,14 +453,16 @@ a.socialIcon:hover,
 
 
 .In_Service_Text {
-     font-size: large;   
-     background: rgba(236, 151, 31, 0.76);
-     color:rgba(255,255,255);
-     padding: 10px;
-     font-weight: bold;
-     border-bottom-right-radius: 30px;
-     border-bottom-left-radius: 30px;
-     text-align: center;
+
+  font-size: large;   
+  background: rgba(236, 151, 31, 0.76);
+  color:rgba(255,255,255);
+  padding: 10px;
+  font-weight: bold;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  text-align: center;
+
 }
 .In_Service {
   
@@ -469,8 +471,8 @@ a.socialIcon:hover,
 }
 
   .card-front img,.card-back{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
   }
 
 .card-flip{
@@ -496,7 +498,9 @@ a.socialIcon:hover,
   position: absolute;
   top: 0;
   background-color: #333333;
-  border-radius: 30px
+  border-radius: 30px;
+  color: red;
+  font: italic bold 12px/30px Georgia, serif;
 
 }
 
@@ -507,8 +511,8 @@ a.socialIcon:hover,
   
 .card-flip:hover .card-back {
   transform: rotateY(0deg);
-    width: 400px;
- height: 400px;
+    width: 350px;
+ height: 300px;
 }
 
 
