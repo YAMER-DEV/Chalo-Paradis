@@ -469,12 +469,12 @@ a.socialIcon:hover,
 }
 
   .card-front img,.card-back{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
 
 .card-flip{
-    width: 400px;
+    width: 300px;
     margin-right: 30px
 }
 .card-flip > div {
