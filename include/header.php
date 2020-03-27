@@ -35,7 +35,7 @@
       <div class="navbr-header">
         <!--  -->
 
-        <a href="accueil.html" style="height: 90px;padding: 0px 15px;" class="navbar-brand home">
+        <a href="index.php" style="height: 90px;padding: 0px 15px;" class="navbar-brand home">
 
           <img src="Logo.png" style="max-width:220px;max-height:90px" alt="Logo">
 
@@ -79,19 +79,19 @@
           <ul class="nav navbar-nav left" style="margin-top: 20px; margin-left: 30px">
 
             <li class="active">
-              <a href="#">Accueil</a>
+              <a href="index.php">Accueil</a>
             </li>
             <li>
-              <a href="Produit.html">Nos produits</a>
+              <a href="Produit.php">Nos produits</a>
             </li>
             <li>
-              <a href="#">Nos Services</a>
+              <a href="service.php">Nos Services</a>
             </li>
             <li>
-              <a href="#">A propos</a>
+              <a href="apropos.php">A propos</a>
             </li>
             <li>
-              <a href="#">Contactez nous</a>
+              <a href="contact.php">Contactez nous</a>
             </li>
            
 

@@ -29,30 +29,41 @@
       <div class="uk-container">
         <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
           <div>
-            <img class="uk-margin-auto uk-margin-auto-vertical" src="Logo.png" alt="logo" style="max-width:150px;max-height:100px">
+            <img class="uk-margin-auto uk-margin-auto-vertical" src="Logo.png" alt="logo" style="max-width:250px;max-height:250px">
 
-            <p>
+        
+          </div>
+
+          <div class="">
+                <p>
                  <strong>Chalo Paradis</strong>, Boutique de produits cosmétiques, Institut de Beauté, Onglerie et Coiffure pour femmes, est en cours de construction.<br />
                
               </p>
-          </div>
+               <p><b>Mode de paiement</b></p>
 
-          <div>
-              
-          </div>
-
-          <div>
-            <div class="box container-fluid" style="background: #333">
-              <p align="center">Inscrivez-vous sur newsletter</p>
-              
-              <div style="margin-right: 40px;">
-                <div class="col-md-10 col-sm-10 col-xs-10">
-                  <input type="email" class="form-control" id="colFormLabel" placeholder="email">
+                <div style="margin-right: 40px;">
+                     <i class="fa fa-cc-visa fa-2x"></i>
+                      <i class="fa fa-cc-mastercard fa-2x"></i>
+                      <i class="fa fa-cc-paypal fa-2x"></i>
                 </div>
-                <div class="col-md-2 col-sm-2 col-xs-2">
-                  <button type="submit" class="btn btn-warning ">Submit</button>
+                
+          </div>
+
+          <div>
+            <div class="box container-fluid" style="background: #333333;">
+              <div class="row" style="padding: 20px;">
+                <p align="center">Inscrivez-vous sur newsletter</p>
+              
+                <div style="margin-right: 40px;">
+                  <div class="col-md-10 col-sm-10 col-xs-10">
+                    <input type="email" class="form-control" id="colFormLabel" placeholder="email">
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2">
+                    <button type="submit" class="btn btn-warning ">Submit</button>
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
 
