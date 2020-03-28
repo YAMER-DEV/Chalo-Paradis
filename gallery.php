@@ -34,22 +34,36 @@ include("include/header.php");
 ?>
   <!-- Section Service -->
 <div class="container-fluid" style="background: url('img/back2.jpg') no-repeat; background-size: cover;padding: 20px;margin-bottom: 20px">
-  <div class="popup-gallery row gallery">
-      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/coiffure1.jpeg" title="Coiffure 1"><img src="img/Gallerie/coiffure1.jpeg" width="200" height="200" class="img-thumbnail"></a>
+  
+  <div class="container">
+    <div class="popup-gallery row gallery">
+      <a class="hvr-grow ml-2 mr-2 " href="img/Gallerie/coiffure1.jpeg" title="Coiffure 1"><img src="img/Gallerie/coiffure1.jpeg" width="200" height="50" class=" hex-image"></a>
 
-      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/coiffure2.jpg" title="Coiffure 2"><img src="img/Gallerie/coiffure2.jpg" width="200" height="200" class="img-thumbnail"></a>
+      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/coiffure2.jpg" title="Coiffure 2"><img src="img/Gallerie/coiffure2.jpg" width="200" height="200" class=""></a>
 
-      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/coiffure3.jpeg" title="Coiffure 3"><img src="img/Gallerie/coiffure3.jpeg" width="200" height="200" class="img-thumbnail"></a>
+      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/coiffure3.jpeg" title="Coiffure 3"><img src="img/Gallerie/coiffure3.jpeg" width="200" height="200" class=""></a>
 
-       <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/spa1.jpg" title="SPA 1"><img src="img/Gallerie/spa1.jpg" width="200" height="200" class="img-thumbnail"></a>
-      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/spa2.jpeg" title="SPA 2"><img src="img/Gallerie/spa2.jpeg" width="200" height="200" class="img-thumbnail"></a>
-      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/spa3.jpeg" title="SPA 3"><img src="img/Gallerie/spa3.jpeg" width="200" height="200" class="img-thumbnail"></a>
+       <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/spa1.jpg" title="SPA 1"><img src="img/Gallerie/spa1.jpg" width="200" height="200" ></a>
 
-       <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/soin1.jpeg" title="SOIN 1"><img src="img/Gallerie/soin1.jpeg" width="200" height="200" class="img-thumbnail"></a>
-      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/soin2.jpeg" title="SOIN 2"><img src="img/Gallerie/soin2.jpeg" width="200" height="200" class="img-thumbnail"></a>
-      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/spa3.jpeg" title="SOIN 3"><img src="img/Gallerie/spa3.jpeg" width="200" height="200" class="img-thumbnail"></a>
+      <a class="hvr-grow ml-2 mr-2" href="img/Gallerie/spa2.jpeg" title="SPA 2"><img src="img/Gallerie/spa2.jpeg" width="200" height="200"></a>
 
+      <a class="hvr-grow ml-2 mr-2 decalage fou9" href="img/Gallerie/spa3.jpeg" title="SPA 3"><img src="img/Gallerie/spa3.jpeg" width="200" height="200"></a>
+
+       <a class="hvr-grow fou9" href="img/Gallerie/soin1.jpeg" title="SOIN 1"><img src="img/Gallerie/soin1.jpeg" width="200" height="200"></a>
+      <a class="hvr-grow fou9" href="img/Gallerie/soin2.jpeg" title="SOIN 2"><img src="img/Gallerie/soin2.jpeg" width="200" height="200"></a>
+      <a class="hvr-grow fou9" href="img/Gallerie/soin3.jpeg" title="SOIN 3"><img src="img/Gallerie/soin3.jpeg" width="200" height="200"></a>
+
+       <a class="hvr-grow fou9" href="img/Gallerie/prod1.jpeg" title="PROD 2"><img src="img/Gallerie/prod1.jpeg" width="200" height="200"></a>
+      <a class="hvr-grow fou9" href="img/Gallerie/prod2.jpeg" title="PROD 2"><img src="img/Gallerie/prod2.jpeg" width="200" height="200"></a>
+
+      <a class="hvr-grow fou9" href="img/Gallerie/local1.jpeg" title="SOIN 3"><img src="img/Gallerie/local1.jpeg" width="200" height="200"></a>
+
+       <a class="hvr-grow fou9" href="img/Gallerie/local2.jpg" title="PROD 2"><img src="img/Gallerie/local2.jpg" width="200" height="200"></a>
+      <a class="hvr-grow fou9" href="img/Gallerie/local3.jpg" title="PROD 2"><img src="img/Gallerie/local3.jpg" width="200" height="200"></a>
+
+    
       
+  </div>
   </div>
 </div>
 

@@ -1,3 +1,4 @@
+<a id="botona"></a>
 <!-- top menu -->
   <div id="top">
     <div class="container">
@@ -86,6 +87,9 @@
             </li>
             <li>
               <a href="service.php">Nos Services</a>
+            </li>
+            <li>
+              <a href="gallery.php">Gallerie</a>
             </li>
             <li>
               <a href="apropos.php">A propos</a>
