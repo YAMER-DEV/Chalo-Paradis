@@ -573,3 +573,8 @@ a.socialIcon:hover,
 
 
 
+/* Page Galerie */
+div.gallery a {
+    
+    margin-left: 5px;
+}

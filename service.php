@@ -5,7 +5,7 @@
 <html>
 
 <head>
-  <title>Accueil</title>
+  <title>Service</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -17,11 +17,13 @@
   <script src="jss/uikit-icons.min.js"></script>
   <script src="js/uikit.min.js"></script>
   <script src="js/uikit-icons.min.js"></script>
+  <script src="js/swiper.min.js"></script>
 
   <link rel="stylesheet" href="styles/bootstrap-337.min.css">
   <link rel="stylesheet" href="icons/font-awsome/css/font-awesome.min.css">
   <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/uikit.min.css">
+  <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 
 </head>
 
