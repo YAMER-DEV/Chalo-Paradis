@@ -32,6 +32,14 @@
 <?php
 include("include/header.php");
 ?>
+
+<div class="container-fluid boxIndex" style="background-color: black;color: white;font-size: large;font-weight: bold;text-align: center;vertical-align: middle;opacity: 0.9;background: url(img/backbox.jpeg);background-size: cover;background-repeat: no-repeat;">
+ <h2 class="" style="color: white;padding: 20px">Gallerie</h2> 
+</div>
+<br><br>
+
+
+
   <!-- Section Service -->
 <div class="container-fluid" style="background: url('img/back2.jpg') no-repeat; background-size: cover;padding: 20px;margin-bottom: 20px">
   

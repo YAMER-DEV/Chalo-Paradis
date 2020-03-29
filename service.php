@@ -47,6 +47,13 @@
   <?php
   include("include/header.php");
   ?>
+
+
+<div class="container-fluid boxIndex" style="background-color: black;color: white;font-size: large;font-weight: bold;text-align: center;vertical-align: middle;opacity: 0.9;background: url(img/backbox.jpeg);background-size: cover;background-repeat: no-repeat;">
+ <h2 class="" style="color: white;padding: 20px">Nos services</h2> 
+</div>
+<br><br>
+
     
   <div class="container-fluid" style=" background: #333;font-size: 14px;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;color:#000;margin: -10;padding: 0;" >
      
@@ -79,7 +86,7 @@
           </div>
           <div class="swiper-slide ">
             <div class="imgbx" style="height: inherit; overflow: hidden;">
-              <a href="#id2"><img src="images/makeup2.png" style="width: 100%; height: 100%"></a>
+              <a href="#id2"><img src="img/makeUpService.jpg" style="width: 100%; height: 100%"></a>
             </div>
             <div style="font-size: medium;padding: 7px 30px;background: rgba(236, 151, 31, 0.76);color:rgba(255,255,255);"  class="uk-overlay uk-overlay-primary uk-position-bottom">
                <p>Maquillage</p>
@@ -329,7 +336,7 @@
         el: '.swiper-pagination',
       },
     });
-    swiper.slideTo(5, false,false);
+    swiper.slideTo(3, false,false);
   </script>
 </body>
 </html>
