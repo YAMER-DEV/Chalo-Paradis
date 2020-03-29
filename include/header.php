@@ -32,7 +32,7 @@
 
 
   <!-- menu -->
-  <div id="navbar" class="navbar navbar-default">
+  <div id="navbar" style ="margin-bottom: 0px;"class="navbar navbar-default">
     <div class="container">
 
       <div class="navbr-header">

@@ -399,6 +399,7 @@ body{
 
 .navbar{
 	background: #ffffff;
+  margin-bottom: 0px;
 }
 .navbar-collapse .right{
 	float: right;
