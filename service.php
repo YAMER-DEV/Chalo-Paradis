@@ -50,7 +50,7 @@
     
   <div class="container-fluid" style=" background: #333;font-size: 14px;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;color:#000;margin: -10;padding: 0;" >
      
-    <div class="swiper-container">
+    <div class="swiper-container " >
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
@@ -77,7 +77,7 @@
                <p>Soins</p>
             </div>  
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide ">
             <div class="imgbx" style="height: inherit; overflow: hidden;">
               <a href="#id2"><img src="images/makeup2.png" style="width: 100%; height: 100%"></a>
             </div>
@@ -315,6 +315,8 @@
       effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
+      direction: 'horizontal',
+      loop: false,
       slidesPerView: 'auto',
       coverflowEffect: {
         rotate: 40,
@@ -327,6 +329,7 @@
         el: '.swiper-pagination',
       },
     });
+    swiper.slideTo(5, false,false);
   </script>
 </body>
 </html>
