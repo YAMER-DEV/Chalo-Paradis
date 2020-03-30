@@ -152,10 +152,10 @@
       <div   class="uk-card uk-padding uk-panel " align="center" style="background-color:#ec971f;padding: 7px;">
     copyright &copy; 2020: Chalo Paradise
     </div>
-    </div>
+  </div>
 
     
-  </div>
+ 
 
   <script>
     var btn = $('#botona');

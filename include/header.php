@@ -17,9 +17,9 @@
       <div class="col-md-6 ">
         <ul class="menu">
 
-          <li> <a href="">S'inscrire</a></li>
+          <li> <a href="inscription.php">S'inscrire</a></li>
           <li> <a href="">mon Compte</a></li>
-          <li> <a href="">Connection</a></li>
+          <li> <a href="connection.php">Connection</a></li>
 
         </ul>
 
@@ -81,7 +81,7 @@
         <div class="padding-nav">
           <ul class="nav navbar-nav left" style="margin-top: 20px; margin-left: 30px">
 
-            <li class="active">
+            <li>
               <a href="index.php">Accueil</a>
             </li>
             <li>
@@ -96,6 +96,7 @@
             <li>
               <a href="apropos.php">A propos</a>
             </li>
+
             <li>
               <a href="contact.php">Contactez nous</a>
             </li>

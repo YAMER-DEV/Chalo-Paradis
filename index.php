@@ -34,7 +34,7 @@
 include("include/header.php");
 ?>
   <!-- sidebar+slider -->
-  <div class="container-fluid" >
+  <div class="container-fluid" style="margin-top: 10px" >
     <!-- side bar -->
          <?php
       include("include/sidebar.php");
