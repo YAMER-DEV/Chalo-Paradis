@@ -27,13 +27,14 @@
 </head>
 <style type="text/css">
 	.icon {
-  padding: 20px;
-  font-size: 30px;
-  width: 80px;
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 100%;
+  margin-bottom: 10px;
 }
 
 .icon:hover {
@@ -79,7 +80,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
+  
 }
 
 a {
@@ -102,7 +103,7 @@ h2 {
 
 
 /* STRUCTURE */
-
+.card-body{background-color: rgba(0,0,0,0.7);padding: 0;margin:10px;}
 .wrapper {
   display: flex;
   align-items: center;
@@ -111,12 +112,13 @@ h2 {
   width: 100%;
   min-height: 100%;
   padding: 20px;
+
 }
 
 #formContent {
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
-  background: #fff;
+  background: #000;
   padding: 30px;
   width: 90%;
   max-width: 450px;
@@ -188,17 +190,17 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
 }
 
 input[type=text] {
-  background-color: #f6f6f6;
+  background-color: transparent;
   border: none;
-  color: #0d0d0d;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 5px;
+  font-size: 18px;
+  margin: 7px;
   width: 85%;
-  border: 2px solid #f6f6f6;
+  border-bottom: 2px solid #f6f6f6;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -209,7 +211,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  background-color: #fff;
+ 
   border-bottom: 2px solid #edae56 ;
 }
 
@@ -302,10 +304,9 @@ input[type=text]:placeholder {
 }
 
 /* Simple CSS3 Fade-in Animation */
+.underlineHover{float: right;margin-right: 15px;}
 .underlineHover:after {
   display: block;
-  left: 0;
-  bottom: -10px;
   width: 0;
   height: 2px;
   /*background-color: #56baed;*/
@@ -334,7 +335,7 @@ input[type=text]:placeholder {
 }
 
 </style>
-<body>
+<body style="background:url(img/formBack1.jpg) no-repeat;background-size: cover;">
 
 <a id="botona"></a>
 
@@ -483,52 +484,78 @@ input[type=text]:placeholder {
 
 
 
-<div class="container-fluid boxIndex" style="background-color: black;color: white;font-size: large;font-weight: bold;text-align: center;vertical-align: middle;opacity: 0.9;background: url(img/backbox.jpeg);background-size: cover;background-repeat: no-repeat;">
- <h2 class="" style="color: white;padding: 20px">Connection</h2> 
-</div>
-<center>
-	<div class="container-fluid bg-light">
+  <div class="container-fluid boxIndex" style="background-color: black;color: white;font-size: large;font-weight: bold;text-align: center;vertical-align: middle;opacity: 0.9;background: url(img/backbox.jpeg);background-size: cover;background-repeat: no-repeat;">
+   <h2 class="" style="color: white;padding: 20px">Connection</h2> 
+ </div>
+
+ <center>
+   <div class="container-fluid bg-light" style="margin-bottom: 40px">
 
 
-	<div class="card">
-	<article class="card-body mx-auto" style="max-width: 470px;">
-		
-		
-		<br><br>
-		<!-- Icon -->
-    <div class="fadeIn first">
-      <img src="logo.png" id="icon" alt="User Icon" />
-    </div>
+     <div class="card">
+       <article class="card-body mx-auto" style="max-width: 470px;">
 
-    <!-- Login Form -->
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
-    </form>
 
-    <!-- Remind Passowrd -->
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Mot de passe oublié?</a>
-    </div>
-		
-	<br>
-	<p class="text-center">Accés rapide avec</p>
-	<div>
-   
+            <br>            <!-- Icon -->
+            <div class="fadeIn first">
+              <img src="logo.png" id="icon" alt="User Icon" />
+            </div>
+            <br>
+
+            <!-- Login Form -->
+            <form>
+              <input type="text" id="login" class="fadeIn second" name="login" placeholder="Nom d'utilisateur">
+              <input type="text" id="password" class="fadeIn third" name="login" placeholder="mot de passe">
+           
+              <a class="underlineHover" href="#"  data-toggle="modal" data-target="#exampleModal">Mot de passe oublié?</a>
+           <br><br><br>
+              <input type="submit" class="fadeIn fourth btn " value="Se Connecter">
+            </form>
+
+            <!-- Remind Passowrd -->
+ 
+            <p class="text-center text-warning" style="font-size: medium;color: white;margin-top: 0;">Accés rapide avec</p>
+            <div>
+
                <a href="#" class="icon icon-facebook fa fa-facebook"></a>
-				<a href="#" class="icon icon-twitter fa fa-twitter"></a>
-				<a href="#" class="icon icon-google fa fa-google"></a>
-				<a href="#" class="icon icon-linkedin fa fa-linkedin"></a>
-              
-            
-        
-          </div>
-        
-</article>
-</div> <!-- card.-->
-</div>
+               <a href="#" class="icon icon-twitter fa fa-twitter"></a>
+               <a href="#" class="icon icon-google fa fa-google"></a>
+               <a href="#" class="icon icon-linkedin fa fa-linkedin"></a>
+
+             </div>
+
+     </article>
+   </div> <!-- card.-->
+ </div>
 </center>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Nssiti lmot de passe tani ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+           <h4>Pour rénitialiser votre mot de passe entrez votre email</h4>
+           <input type="email" placeholder="Email" class="form-control" required="">
+           <br>
+           <button type="submit" class="btn btn-success">Envoyer</button>
+        </form>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
 
  <?php
 include("include/footer.php");

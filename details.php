@@ -15,11 +15,13 @@
 	<script src="js/uikit-icons.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/util.js"></script>
+  <script src="js/jquery.exzoom.js"></script>
 
 	<link rel="stylesheet" href="styles/bootstrap-337.min.css">
 	<link rel="stylesheet" href="icons/font-awsome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/uikit.min.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.exzoom.css">
 
 </head>
 <style>
@@ -213,25 +215,51 @@ include("include/header.php");
 		<div class="card">
 			<div class="container-fliud">
 				<div class="wrapper row">
-					<div class="preview col-md-5">
+					<div class="preview col-md-7">
 						
-						<div class="preview-pic tab-content">
-						  <div class="tab-pane active" id="pic-1"><img src="images/nivea1.jpg" style="height: 323px" /></div>
-						  <div class="tab-pane" id="pic-2"><img src="images/nivea2.jpg"style="height: 323px" /></div>
-						  <div class="tab-pane" id="pic-3"><img src="images/nivea3.jpg"style="height: 323px" /></div>
-						  <div class="tab-pane" id="pic-4"><img src="images/nivea4.jpg"style="height: 323px" /></div>
-						  
-						</div>
-						<ul class="preview-thumbnail nav nav-tabs">
-						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="images/nivea1.jpg"style="height: 50px" /></a></li>
-						  <li><a data-target="#pic-2" data-toggle="tab"><img src="images/nivea2.jpg"style="height: 50px" /></a></li>
-						  <li><a data-target="#pic-3" data-toggle="tab"><img src="images/nivea3.jpg"style="height: 50px" /></a></li>
-						  <li><a data-target="#pic-4" data-toggle="tab"><img src="images/nivea4.jpg"style="height: 50px" /></a></li>
-						 
-						</ul>
+						<div class="exzoom" id="exzoom">
+
+              <!-- Images -->
+
+              <div class="exzoom_img_box">
+
+                <ul class='exzoom_img_ul'>
+
+                  <li><img src="images/nivea1.jpg"/></li>
+
+                  <li><img src="images/nivea2.jpg"/></li>
+
+                  <li><img src="images/nivea3.jpg"/></li>
+
+                  <li><img src="images/nivea4.jpg"/></li>
+
+                  <li><img src="images/nivea5.jpg"/></li>
+
+                  ...
+
+                </ul>
+
+              </div>
+
+              <!-- <a href="https://www.jqueryscript.net/tags.php?/Thumbnail/">Thumbnail</a> Nav-->
+
+              <div class="exzoom_nav"></div>
+
+              <!-- Nav Buttons -->
+
+              <p class="exzoom_btn">
+
+                  <a href="javascript:void(0);" class="exzoom_prev_btn"> < </a>
+
+                  <a href="javascript:void(0);" class="exzoom_next_btn"> > </a>
+
+              </p>
+
+            </div>
+
 						
 					</div>
-					<div class="col-md-7">
+					<div class="col-md-5">
            			<div class="box " style="width: 489px;">
            				
            					<h1 class="text-center">Nivea Cream</h1>
@@ -329,7 +357,47 @@ include("include/header.php");
   </div>
   </div>  
 
+<script>
+    $(function(){
+ 
 
+  $("#exzoom").exzoom({
+
+ 
+
+    // thumbnail nav options
+
+    "navWidth": 60,
+
+    "navHeight": 60,
+
+    "navItemNum": 19,
+
+    "navItemMargin": 7,
+
+    "navBorder": 1,
+
+ 
+
+    // autoplay
+
+  "autoPlay":false,
+
+ 
+
+    // autoplay interval in milliseconds
+
+    "autoPlayTimeout": 2000
+
+     
+
+  });
+
+ 
+
+});
+
+</script>
 
 <?php
 include("include/footer.php");
