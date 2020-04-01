@@ -318,7 +318,7 @@ include("include/header.php");
 					<div class="box" id="details">
 						<div class="container-fliud">
 							<div class="row">
-								<h4>Product Details</h4>
+								<h4>Product Detail</h4>
 		                       <hr>
 		                       <div>
 			                       	<div class="col-md-6">

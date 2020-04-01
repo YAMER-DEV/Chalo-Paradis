@@ -7,7 +7,7 @@
 
 
       <div class="col-md-6 offer">
-        <a href="#" class="btn btn-warning btn-sm"> Bienvenu chez Chalo Paradise  </a>
+        <a href="#" class="btn btn-warning btn-sm"> Bienvenue chez Chalo Paradise  </a>
         <!-- <a href="panier.html" class="btn navbar-btn btn-warning  right">
 
           <i class="fa fa-shopping-cart"></i>
