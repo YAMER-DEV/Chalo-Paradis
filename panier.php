@@ -23,7 +23,7 @@
 </head>
 <style type="text/css">
 input[type=reset]  {
-  background-color: #edae56 ;
+  background-color: red ;
   border: none;
   color: white;
   width: 92px;
@@ -31,7 +31,22 @@ input[type=reset]  {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  text-transform: uppercase;}
+  }
+  input[type=checkbox]  {
+  content: ''; */
+    display: block;
+    /* position: absolute; */
+    /* top: 86px; */
+    left: 9px;
+    width: 81px;
+    height: 19px;
+    border: solid ;
+    background-color: #0079bf;
+    border-width: 0 2px 2px 0;
+    /* transform: rotate(45deg); */
+
+  }
+
 
 </style>
 <body>
@@ -83,7 +98,7 @@ input[type=reset]  {
 							<tbody>
 								<tr>
 									<td>
-										<input type="checkbox" name="select">
+									<input type="checkbox" class="custom-control-input" id="check1" checked>
 									</td>
 									<td>
 										<img style=" width: 50px;" src="images/nivea1.jpg">
@@ -117,7 +132,7 @@ input[type=reset]  {
                               
                         <div class="pull-right">
                                
-                            <a href="checkout.php" class="btn btn-warning" style="">                                   
+                            <a href="checkout.php" class="btn btn-success" style="">                                   
                             	Finaliser votre commande <i class="fa fa-chevron-right"></i>
                             </a>
                         </div>                           
