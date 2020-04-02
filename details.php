@@ -212,10 +212,44 @@ include("include/header.php");
 
    <div id="productMain" class="row"><!-- row Begin -->
        <div class="container">
+        <div class="warpper row">
+      <div class="container">
+        <div class="col-md-10">
+          <div class="box" id="details">
+            <div class="container-fliud">
+              <div class="row">
+                <h4>Product Detail</h4>
+                           <hr>
+                           <div>
+                              <div class="col-md-6">
+                              <ul>
+                      <li>Contenu du packaging: 3 x 150 ml </li>
+                                <li>Garantie: 12 mois après ouverture</li>
+                                <li>Dimensions: 9,7 x 2,5 x 9,7 cm</li>
+                              </ul>
+                            </div>
+                            <div class="col-md-6">
+                              <ul>
+                                <li>Le soin idéal pour toute la famille, adapté à tous les types de peau et qui s'applique sur tout le corps.</li>
+                                <li>Sans agents conservateurs. Testé sous contrôle dermatologique</li>
+                                
+                              </ul>
+                            </div>
+
+                </div>
+              </div>
+                      </div>
+                    
+                  </div><!-- box Finish -->
+        </div>
+        
+      </div>
+            
+    </div>
 		<div class="card">
 			<div class="container-fliud">
 				<div class="wrapper row">
-					<div class="preview col-md-7">
+					<div class="preview col-md-5">
 						
 						<div class="exzoom" id="exzoom">
 
@@ -259,7 +293,7 @@ include("include/header.php");
 
 						
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-7">
            			<div class="box " style="width: 489px;">
            				
            					<h1 class="text-center">Nivea Cream</h1>
@@ -312,40 +346,7 @@ include("include/header.php");
 			</div>
 
 		</div>
-		<div class="warpper row">
-			<div class="container">
-				<div class="col-md-10">
-					<div class="box" id="details">
-						<div class="container-fliud">
-							<div class="row">
-								<h4>Product Detail</h4>
-		                       <hr>
-		                       <div>
-			                       	<div class="col-md-6">
-				                   		<ul>
-											<li>Contenu du packaging: 3 x 150 ml </li>
-				                   			<li>Garantie: 12 mois après ouverture</li>
-				                   			<li>Dimensions: 9,7 x 2,5 x 9,7 cm</li>
-				                   		</ul>
-		                   			</div>
-				                   	<div class="col-md-6">
-				                   		<ul>
-				                   			<li>Le soin idéal pour toute la famille, adapté à tous les types de peau et qui s'applique sur tout le corps.</li>
-				                   			<li>Sans agents conservateurs. Testé sous contrôle dermatologique</li>
-				                   			
-				                   		</ul>
-				                   	</div>
-
-								</div>
-							</div>
-	                    </div>
-                   	
-               		</div><!-- box Finish -->
-				</div>
-				
-			</div>
-						
-		</div>
+		
 	</div>
     
        

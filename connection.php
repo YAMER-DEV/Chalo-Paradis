@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Coonection</title>
+	<title>Connection</title>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css "href="css/file.css">
 	<script src="js/jquery-331.min.js"></script>
 	<script src="js/bootstrap-337.min.js"></script>
-	<script src="jss/uikit-icons.min.js"></script>
+	<script src="js/uikit-icons.min.js"></script>
 	<script src="js/uikit.min.js"></script>
 	<script src="js/uikit-icons.min.js"></script>
 	<script src="js/main.js"></script>
